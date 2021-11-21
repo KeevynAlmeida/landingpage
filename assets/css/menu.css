@@ -1,10 +1,11 @@
 .menu{
     position: fixed;
+    z-index: 1; /*para que o menu fique visualmente acima das outras seções*/
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
-    border-bottom: 0.1rem solid var(--light-gray-color) ;
+    border-bottom: 0.1rem solid var(--light-gray-color);
 }
 
 .menu .menu-content{
