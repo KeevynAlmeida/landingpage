@@ -54,3 +54,32 @@ a{
 p{
  margin-bottom: 3rem;   
 }
+
+.responsive-table{
+    overflow: hidden;
+    overflow-x:auto;
+}
+
+table{
+    min-width: 3.6rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td, table th{
+    white-space: nowrap;/*função para não quebrar o texto dentro da tabela*/
+    padding: 0.5rem;
+    text-align: left;
+    border: .1rem solid var(--light-gray-color)
+}
+
+table caption{
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+tfoot td, table th{
+    background: var(--light-gray-color);
+}
